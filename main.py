@@ -24,7 +24,7 @@ CORA_CLASSES = {
 }
 
 BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH  = os.path.join(BASE_DIR, 'C:/Users/antho/OneDrive/Desktop/CORA_PROJECT_001/simple_gcn_cora.onnx')
+MODEL_PATH  = os.path.join(BASE_DIR, 'simple_gcn_cora.onnx')
 DATA_DIR    = os.path.join(BASE_DIR, "data", "Planetoid")
 STATIC_DIR  = os.path.join(BASE_DIR, "static")
 
