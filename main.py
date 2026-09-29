@@ -87,6 +87,7 @@ def run_model(node_features: np.ndarray, edge_index: np.ndarray, node_indices_to
 
 
 @app.get('/',response_class=FileResponse)
+@app.head('/')
 def home_page():
     index_file = os.path.join(STATIC_DIR, "index.html")
     if os.path.exists(index_file):
